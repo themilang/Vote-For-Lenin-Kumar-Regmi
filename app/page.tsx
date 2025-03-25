@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <>
@@ -24,9 +26,11 @@ export default function Home() {
               alt="Voting Stamp"
               className="absolute top-4 right-4 w-30 h-20  rotate-12"
             />
-            <img
+            <Image
               src="/Lenweb.png"
               alt="Lenin Regmi"
+              width={800}
+              height={512}
               className="w-[95%] sm:w-full h-64 sm:h-[32rem] object-cover object-top rounded-xl shadow-lg mb-6 border-4 border-white"
             />
             <h2 className="text-4xl sm:text-6xl font-extrabold mb-4 leading-tight">लेलिन कुमार रेग्मी</h2>
