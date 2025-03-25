@@ -27,7 +27,7 @@ export default function Home() {
               className="absolute top-4 right-4 w-30 h-20  rotate-12"
             />
             <Image
-              src="/Lenweb.png"
+              src="/leninhero.png"
               alt="Lenin Regmi"
               width={800}
               height={512}
