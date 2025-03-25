@@ -18,7 +18,7 @@ export default function Home() {
         </header>
 
         {/* Hero Pamphlet */}
-        <section className="relative z-10 flex flex-col items-center justify-center min-h-[100vh] px-4 -mt-12">
+        <section className="relative z-10 flex flex-col items-center justify-center min-h-[100vh] px-4 mt-12">
           <div className="relative backdrop-blur-lg bg-white/20 text-white w-full max-w-3xl text-center p-12 rounded-2xl shadow-2xl transform -rotate-1 hover:rotate-0 transition duration-500">
             {/* Stamp */}
             <img
